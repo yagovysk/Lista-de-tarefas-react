@@ -1,0 +1,313 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.container-lista {
+  background-image: url('./assets/background-space.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  padding: 16.45rem 0;
+}
+.container-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+.container-section h1 {
+  color: #250110;
+  font-family: 'Arimo', sans-serif;
+  font-size: 2rem;
+  text-shadow: 0 0 10px white, 0 0 20px white, 0 0 30px white;
+}
+.container-buttons {
+  display: flex;
+  gap: 1rem;
+}
+.container-buttons button {
+  appearance: none;
+  padding: 1rem;
+  border-radius: 15px;
+  transition: 0.3s ease;
+  cursor: pointer;
+  border: solid 3px rgb(15, 1, 15);
+  background-color: rgba(128, 0, 128, 0.685);
+  color: #f0f0f5;
+  font-family: 'Changa', sans-serif;
+  font-size: 0.8rem;
+}
+.container-buttons button:hover {
+  background: none;
+  box-shadow: 0 0 20px 10px rgba(48, 1, 49, 0.7);
+  color: #1b0125;
+  text-shadow: 0 0 10px white, 0 0 20px white, 0 0 30px white;
+}
+.container-modal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url('./assets/background-spacejam.jpg');
+  background-position: center;
+  position: absolute;
+  top: 22%;
+  left: 8%;
+  border-radius: 15px;
+  width: 80%;
+  padding: 2rem;
+  gap: 1rem;
+  z-index: 1 !important;
+}
+.container-content {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+
+  padding: 1rem;
+  border-radius: 10px;
+}
+.container-content h2 {
+  font-family: 'Arimo', sans-serif;
+  color: rgb(43, 2, 43);
+  text-shadow: 0 0 10px white, 0 0 20px white, 0 0 30px white;
+}
+.container-content button {
+  appearance: none;
+  padding: 0.5rem;
+  border-radius: 15px;
+  cursor: pointer;
+  background: linear-gradient(to bottom right, #000000, #2c0238e7, #b83f06e3);
+  border: solid 3px rgb(36, 1, 36);
+  color: #fff;
+  transition: 0.5s ease;
+}
+.container-content button:hover {
+  background: linear-gradient(to bottom right, #000000, #590670e7, #dd5d22e3);
+}
+.container-content form input {
+  padding: 0.8rem;
+  border-radius: 10px;
+  font-family: 'Changa', sans-serif;
+  border: solid rgb(77, 2, 77);
+}
+.container-modal form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+.container-modal .back-button {
+  padding: 0.5rem;
+}
+.container-modal .container-back {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.message-modal {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
+  z-index: 999;
+  position: absolute;
+  top: 49%;
+  left: 40%;
+  padding: 2rem;
+  color: rgb(51, 3, 51);
+  text-shadow: 0 0 10px white, 0 0 20px white, 0 0 30px white;
+}
+.message-modal button {
+  appearance: none;
+  padding: 0.5rem;
+  border-radius: 15px;
+  cursor: pointer;
+  background: linear-gradient(to bottom right, #000000, #2c0238e7, #b83f06e3);
+  border: solid 3px rgb(36, 1, 36);
+  color: #fff;
+  transition: 0.5s ease;
+}
+.message-modal button:hover {
+  background: none;
+  box-shadow: 0 0 20px 10px rgba(48, 1, 49, 0.7);
+}
+.container-message {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  gap: 1rem;
+
+  background-image: url('./assets/stars.jpeg');
+
+  color: #fff;
+  font-family: 'Arimo', sans-serif;
+  width: 49%;
+  background-position: center;
+  position: absolute;
+  left: 25%;
+  top: 5%;
+  border-radius: 10px;
+}
+.container-message button {
+  appearance: none;
+  background: linear-gradient(to bottom right, #000000, #19479ee7, #f3dddbe3);
+  padding: 0.5rem 1rem;
+  border-radius: 15px;
+  border: solid 2px #000000;
+  cursor: pointer;
+  font-family: 'Changa', sans-serif;
+  color: #fff;
+  transition: background 0.5s ease;
+}
+.container-message button:hover {
+  background: rgba(104, 104, 145, 0.116);
+  box-shadow: 0 0 20px 10px rgba(2, 11, 61, 0.7);
+}
+.container-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container-filters {
+  display: flex;
+  gap: 1rem;
+}
+.container-filters button {
+  appearance: none;
+  padding: 0.5rem;
+  border-radius: 15px;
+  cursor: pointer;
+  background-color: rgba(236, 172, 53, 0.747);
+  border: solid 3px #fff;
+  font-family: 'Changa', sans-serif;
+  color: #0e3c91ec;
+  transition: 0.3s ease;
+}
+.container-filters button:hover {
+  background: none;
+  box-shadow: 0 0 20px 10px rgba(48, 1, 49, 0.7);
+  color: #fff;
+}
+.task {
+  color: #1b0125;
+  font-family: 'Changa', sans-serif;
+  text-shadow: 0 0 10px white, 0 0 20px white, 0 0 30px white;
+  font-size: 1.2rem;
+}
+.list-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.list-container .item-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  font-family: 'Changa', sans-serif;
+  font-size: 1.5rem;
+}
+.item-list button {
+  appearance: none;
+  font-family: 'Changa', sans-serif;
+  padding: 0.5rem;
+  border-radius: 15px;
+  cursor: pointer;
+  background: linear-gradient(to bottom right, #000000, #2c0238e7, #b83f06e3);
+  border: solid 3px rgb(36, 1, 36);
+  color: #fff;
+  transition: 0.5s ease;
+}
+.item-list button:hover {
+  background: none;
+  box-shadow: 0 0 20px 10px rgba(48, 1, 49, 0.7);
+  color: rgb(7, 7, 77);
+}
+
+.buttons-list {
+  display: flex;
+  gap: 1rem;
+}
+@media screen and (max-width: 768px) {
+  .container-lista {
+    padding: 18rem 0; /* Reduz o preenchimento na parte superior e inferior */
+  }
+
+  .container-section h1 {
+    font-size: 1.5rem; /* Reduz o tamanho da fonte do título */
+  }
+
+  .container-buttons button {
+    padding: 0.8rem; /* Aumenta o preenchimento dos botões */
+    font-size: 0.7rem; /* Reduz o tamanho da fonte dos botões */
+  }
+
+  .container-modal {
+    top: 10%; /* Move o modal um pouco para cima */
+    left: 5%; /* Move o modal um pouco para a esquerda */
+    width: 80%; /* Aumenta a largura do modal */
+    padding: 1rem; /* Reduz o preenchimento dentro do modal */
+  }
+
+  .container-content h2 {
+    font-size: 1rem; /* Reduz o tamanho da fonte do título do modal */
+  }
+
+  .container-content button {
+    padding: 0.4rem 0.8rem; /* Ajusta o preenchimento dos botões do modal */
+    font-size: 0.7rem; /* Reduz o tamanho da fonte dos botões do modal */
+  }
+
+  .container-content form input {
+    padding: 0.6rem; /* Ajusta o preenchimento do campo de entrada do modal */
+    font-size: 0.7rem; /* Reduz o tamanho da fonte do campo de entrada do modal */
+  }
+
+  .message-modal {
+    top: 32.5%; /* Move o modal de mensagem para cima */
+    left: 17%; /* Move o modal de mensagem para a esquerda */
+    padding: 1rem; /* Reduz o preenchimento dentro do modal de mensagem */
+    font-size: 0.8rem !important;
+  }
+  .message-modal button {
+    font-size: 0.7rem;
+  }
+  .container-message {
+    width: 70%; /* Ajusta a largura do modal de mensagem */
+    left: 10%; /* Move o modal de mensagem para a esquerda */
+    top: 8%; /* Move o modal de mensagem para cima */
+    padding: 1rem; /* Reduz o preenchimento dentro do modal de mensagem */
+  }
+
+  .container-filters button {
+    padding: 0.6rem; /* Ajusta o preenchimento dos botões de filtro */
+    font-size: 0.7rem; /* Reduz o tamanho da fonte dos botões de filtro */
+  }
+
+  .task {
+    font-size: 1rem; /* Reduz o tamanho da fonte do texto de tarefa */
+  }
+
+  .list-container .item-list {
+    font-size: 1.2rem; /* Reduz o tamanho da fonte dos itens da lista */
+  }
+
+  .item-list button {
+    padding: 0.4rem 0.6rem; /* Ajusta o preenchimento dos botões dentro dos itens da lista */
+    font-size: 0.7rem; /* Reduz o tamanho da fonte dos botões dentro dos itens da lista */
+  }
+
+  .buttons-list {
+    flex-direction: column; /* Alinha os botões verticalmente dentro dos itens da lista */
+    gap: 0.5rem; /* Adiciona espaço entre os botões dentro dos itens da lista */
+  }
+}
